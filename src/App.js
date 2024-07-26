@@ -1,6 +1,6 @@
 import Attendance from './Attendance';
 import Classes from "./Classes";
-
+import Placements from "./Placements";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
               KodNest App
               <Classes />
               <Attendance />
+              <Placements />
              </h1>
           
           </>
