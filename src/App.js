@@ -1,6 +1,9 @@
+import Assessments from './Assessments';
 import Attendance from './Attendance';
 import Classes from "./Classes";
 import Placements from "./Placements";
+import Assessments from './Assessments';
+
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
               <Classes />
               <Attendance />
               <Placements />
+              <Assessments />
              </h1>
           
           </>
